@@ -1,5 +1,6 @@
 <?php
 include("config/config.php");
+include("config/functions.php");
 session_start(); // Starting Session
 // Storing Session
 if (!isset($_SESSION['logged_user_info'])) {
